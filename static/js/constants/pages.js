@@ -2,13 +2,13 @@ module.exports = [
   {
     title: 'Marshall Chen',
     backgroundColor: '#f85d54',
-    hero: '/static/images/first-hero.png',
-    moon: '/static/images/star-moon.png',
-    triangle: '/static/images/triangle.png',
+    hero: 'static/images/first-hero.png',
+    moon: 'static/images/star-moon.png',
+    triangle: 'static/images/triangle.png',
     stars: [
       {
         type: 'cross',
-        url: '/static/images/star-cross.png',
+        url: 'static/images/star-cross.png',
         style: {
           position: 'absolute',
           width: 27,
@@ -19,7 +19,7 @@ module.exports = [
       },
       {
         type: 'huge',
-        url: '/static/images/star-huge.png',
+        url: 'static/images/star-huge.png',
         style: {
           position: 'absolute',
           width: 14,
@@ -30,7 +30,7 @@ module.exports = [
       },
       {
         type: 'huge',
-        url: '/static/images/star-huge.png',
+        url: 'static/images/star-huge.png',
         style: {
           position: 'absolute',
           width: 14,
@@ -41,7 +41,7 @@ module.exports = [
       },
       {
         type: 'huge',
-        url: '/static/images/star-huge.png',
+        url: 'static/images/star-huge.png',
         style: {
           position: 'absolute',
           width: 14,
@@ -52,7 +52,7 @@ module.exports = [
       },
       {
         type: 'huge',
-        url: '/static/images/star-huge.png',
+        url: 'static/images/star-huge.png',
         style: {
           position: 'absolute',
           width: 14,
@@ -63,7 +63,7 @@ module.exports = [
       },
       {
         type: 'huge',
-        url: '/static/images/star-huge.png',
+        url: 'static/images/star-huge.png',
         style: {
           position: 'absolute',
           width: 14,
@@ -74,7 +74,7 @@ module.exports = [
       },
       {
         type: 'small',
-        url: '/static/images/star-small.png',
+        url: 'static/images/star-small.png',
         style: {
           position: 'absolute',
           width: 5,
@@ -85,7 +85,7 @@ module.exports = [
       },
       {
         type: 'small',
-        url: '/static/images/star-small.png',
+        url: 'static/images/star-small.png',
         style: {
           position: 'absolute',
           width: 5,
@@ -96,7 +96,7 @@ module.exports = [
       },
       {
         type: 'small',
-        url: '/static/images/star-small.png',
+        url: 'static/images/star-small.png',
         style: {
           position: 'absolute',
           width: 5,
@@ -107,7 +107,7 @@ module.exports = [
       },
       {
         type: 'small',
-        url: '/static/images/star-small.png',
+        url: 'static/images/star-small.png',
         style: {
           position: 'absolute',
           width: 5,
@@ -118,7 +118,7 @@ module.exports = [
       },
       {
         type: 'small',
-        url: '/static/images/star-small.png',
+        url: 'static/images/star-small.png',
         style: {
           position: 'absolute',
           width: 5,
@@ -129,7 +129,7 @@ module.exports = [
       },
       {
         type: 'small',
-        url: '/static/images/star-small.png',
+        url: 'static/images/star-small.png',
         style: {
           position: 'absolute',
           width: 5,
@@ -140,7 +140,7 @@ module.exports = [
       },
       {
         type: 'small',
-        url: '/static/images/star-small.png',
+        url: 'static/images/star-small.png',
         style: {
           position: 'absolute',
           width: 5,
@@ -153,10 +153,10 @@ module.exports = [
   },
   {
     graph: 'This project is a work-in-progress. Though much of the code is in production on flipboard.com, the React-canvas bindings are relatively new and the API is subject to change.',
-    title: '/static/images/second-title.png',
-    heading: '/static/images/second-heading.png',
-    hero: '/static/images/second-hero.png',
-    triangle: '/static/images/triangle.png',
+    title: 'static/images/second-title.png',
+    heading: 'static/images/second-heading.png',
+    hero: 'static/images/second-hero.png',
+    triangle: 'static/images/triangle.png',
     backgroundColor: '#ffcc73'
   }
 ];
