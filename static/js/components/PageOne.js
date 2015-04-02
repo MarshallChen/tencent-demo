@@ -79,14 +79,14 @@ var PageOne = React.createClass({
       style = _.extend({}, style, star.style);
 
       return (
-        <Image src={star.url} style={style} key={key} />
+        <Image src={star.url} style={style} key={key} fadeIn={true} />
       );
     });
     return (
       <Group style={this.getStyle()}>
         {stars}
         <Group style={this.getHeroGroupStyle()}>
-          <Image src={this.props.hero} style={this.getHeroStyle()} />
+          <Image src={this.props.hero} style={this.getHeroStyle()} fadeIn={true} />
         </Group>
         <Text style={this.getTitleStyle()}>{this.props.title}</Text>
       </Group>
