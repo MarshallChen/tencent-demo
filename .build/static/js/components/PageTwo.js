@@ -72,15 +72,15 @@ var PageTwo = React.createClass({
           ? self.getCrossSmallStarStyle()
           : {}
       style = _.extend({}, style, star.style);
-      return <Image src={star.url} style={style} key={key} />;
+      return <Image src={star.url} style={style} key={key} fadeIn={true} />;
     })
     return (
       <Group style={this.getStyle()}>
         {stars}
         <Group style={this.getImageGroupStyle()}>
-          <Image src={this.props.heading} style={this.getHeadingStyle()} />
-          <Image src={this.props.hero} style={this.getHeroStyle()} />
-          <Image src={this.props.title} style={this.getTitleStyle()} />
+          <Image src={this.props.heading} style={this.getHeadingStyle()} fadeIn={true} />
+          <Image src={this.props.hero} style={this.getHeroStyle()} fadeIn={true} />
+          <Image src={this.props.title} style={this.getTitleStyle()} fadeIn={true} />
         </Group>
         <Group style={this.getGraphGroupStyle()}>
           <Text style={this.getTextStyle()}>{this.props.graph}</Text>
