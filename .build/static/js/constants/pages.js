@@ -1,7 +1,6 @@
 module.exports = [
   {
-    title: 'Marshall Chen',
-    backgroundColor: '#f85d54',
+    title: 'React canvas Demo',
     hero: 'static/images/first-hero.png',
     moon: 'static/images/star-moon.png',
     triangle: 'static/images/triangle.png',
@@ -153,10 +152,56 @@ module.exports = [
   },
   {
     graph: 'This project is a work-in-progress. Though much of the code is in production on flipboard.com, the React-canvas bindings are relatively new and the API is subject to change.',
+    graphBg: 'static/images/second-graph.png',
     title: 'static/images/second-title.png',
     heading: 'static/images/second-heading.png',
     hero: 'static/images/second-hero.png',
-    triangle: 'static/images/triangle.png',
-    backgroundColor: '#ffcc73'
+    triangle: 'static/images/triangle-up.png',
+    stars: [
+      {
+        type: 'cross',
+        url: 'static/images/star-cross.png',
+        style: {
+          position: 'absolute',
+          left: 30,
+          top: 20,
+          width: 27,
+          height: 27
+        }
+      },
+      {
+        type: 'cross',
+        url: 'static/images/star-cross.png',
+        style: {
+          position: 'absolute',
+          left: 180,
+          top: 15,
+          width: 27,
+          height: 27
+        }
+      },
+      {
+        type: 'cross-middle',
+        url: 'static/images/star-cross-middle.png',
+        style: {
+          position: 'absolute',
+          left: 110,
+          top: 70,
+          width: 22,
+          height: 22
+        }
+      },
+      {
+        type: 'cross-small',
+        url: 'static/images/star-cross-small.png',
+        style: {
+          position: 'absolute',
+          left: 30,
+          top: 130,
+          width: 14,
+          height: 14
+        }
+      }
+    ]
   }
 ];

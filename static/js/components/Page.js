@@ -69,7 +69,9 @@ var Page = React.createClass({
                   scrollTop={self.props.scrollTop}
                   width={self.props.width}
                   height={self.props.height}
+                  stars={self.props.page.stars}
                   graph={self.props.page.graph}
+                  graphBg={self.props.page.graphBg}
                   heading={self.props.page.heading}
                   hero={self.props.page.hero}
                   title={self.props.page.title} />;
@@ -91,7 +93,7 @@ var Page = React.createClass({
     return {
       width: this.props.width,
       height: this.props.height,
-      backgroundColor: this.props.page.backgroundColor
+      overflow: 'hidden'
     }
   },
 
@@ -103,13 +105,13 @@ var Page = React.createClass({
       height: this.props.height,
       left: 0,
       top: 0,
-      flexDirection: 'row'
+      flexDirection: 'row',
     }
   },
 
   getTriangleStyle: function() {
     return {
-      top: 100,
+      top: 130,
       width: 35,
       height: 21,
       translateY: this.getTweeningValue('triangleTranslate'),

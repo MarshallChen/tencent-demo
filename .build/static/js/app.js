@@ -17,6 +17,7 @@ var App = React.createClass({
   },
   componentDidMount: function () {
     TouchEmulator();
+    document.getElementById('page').style.maxHeight = window.innerHeight + 'px';
     window.addEventListener('resize', this.handleResize, true);
   },
   render: function() {
