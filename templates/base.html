@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="shortcut icon" href="{% static '/images/favicon.ico' %}">
+	<link rel="stylesheet" href="{% static '/css/app.css' %}">
+
+	{% block header %}
+	<title>{% block title %}Tencent Demo{% endblock %}</title>
+	{% endblock header %}
+
+	<script>
+		var base_url = "{% static '' %}";
+	</script>
+
+</head>
+<body>
+	{% block content %}
+		Main content
+	{% endblock content %}
+
+	{% block scripts %}
+		<script src="{% static '/js/dist/app.js' %}"></script>
+	{% endblock scripts%}
+</body>
+</html>

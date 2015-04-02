@@ -1,0 +1,40 @@
+{
+  "name": "tencent-demo",
+  "version": "1.0.0",
+  "description": "demo",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "css-layout": "0.0.2",
+    "flux": "^2.0.1",
+    "hammer-touchemulator": "0.0.2",
+    "lodash": "^3.6.0",
+    "react": "^0.13.1",
+    "react-canvas": "0.0.1",
+    "react-tween-state": "0.0.5",
+    "scroller": "0.0.2"
+  },
+  "devDependencies": {
+    "browserify": "^9.0.3",
+    "gulp": "^3.8.11",
+    "gulp-if": "^1.2.5",
+    "gulp-notify": "^2.2.0",
+    "gulp-streamify": "0.0.5",
+    "gulp-uglify": "^1.1.0",
+    "gulp-util": "^3.0.4",
+    "reactify": "^1.1.0",
+    "vinyl-source-stream": "^1.1.0",
+    "watchify": "^3.1.0"
+  },
+  "scripts": {
+    "test": "none"
+  },
+  "repository": {
+    "type": "git",
+    "url": "none"
+  },
+  "keywords": [
+    "demo"
+  ],
+  "author": "Marshall",
+  "license": "Marshall"
+}
