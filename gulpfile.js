@@ -26,7 +26,7 @@ var createBundle = function (options) {
 
   var bundler = browserify({
     entries: options.input,
-    debug: true,
+    debug: false,
     transform: [reactify],
     cachePackage: {},
     fullPaths: false
@@ -42,7 +42,7 @@ var createBundle = function (options) {
     bundler.bundle()
       .on('error', function() { console.log(arguments); })
       .pipe(sourceMap(fileName))
-      .pipe(gulpif(!global.isWatching, streamify(uglify())))
+      .pipe(gulpif(global.isWatching, streamify(uglify())))
       .pipe(gulp.dest(global.dest))
       .on('end', function() {
         time = ((new Date()).getTime() - startTime) / 1000;
